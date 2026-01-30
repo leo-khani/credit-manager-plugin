@@ -10,6 +10,8 @@
 !/project.godot
 !/icon.svg
 !/icon.svg.import
+!/demo.png
+!/demo.png.import
 
 # Allow the demo directory
 !/demo/

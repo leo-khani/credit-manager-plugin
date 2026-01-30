@@ -4,6 +4,7 @@
 
 Manage your attributions, licenses, and contributor credits directly from the Godot Editor, and access them easily via code to create stunning credit sequences.
 ![UI Screenshot](demo.png)
+
 ![Godot 4](https://img.shields.io/badge/Godot_4.x-Compatible-478cbf?style=flat&logo=godot-engine)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
