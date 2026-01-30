@@ -11,17 +11,6 @@
 # Export presets
 export_presets.cfg
 
-# Mono/C# - specific (if you use C# in better future)
-.mono/
-*.a
-*.lib
-*.dll
-*.so
-*.dylib
-*.sln
-*.csproj
-*.unitypackage
-
 # System / Tools
 .vscode/
 .idea/
@@ -29,3 +18,4 @@ export_presets.cfg
 Thumbs.db
 *.bak
 *.tmp
+addons/godot-plugin-refresher/
