@@ -1,21 +1,33 @@
-# Godot 4+ specific ignores
+# Ignore everything by default
+/*
+
+# Allow specific root files for the Godot project
+!/.gitignore
+!/.gitattributes
+!/.editorconfig
+!/README.md
+!/LICENSE
+!/project.godot
+!/icon.svg
+!/icon.svg.import
+
+# Allow the demo directory
+!/demo/
+/demo/*
+!/demo/**
+
+# Allow only the credit_manager addon
+!/addons/
+/addons/*
+!/addons/credit_manager/
+!/addons/credit_manager/**
+
+# Standard Godot and System ignores (redundant but good practice)
 .godot/
-/android/
-/ios/
 *.translation
-
-# Imported translations
-*.loc
-*.MO
-
-# Export presets
-export_presets.cfg
-
-# System / Tools
+*.bak
+*.tmp
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-*.bak
-*.tmp
-addons/godot-plugin-refresher/
