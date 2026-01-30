@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://b5c8her4ejiae"]
+
+[ext_resource type="Script" uid="uid://l1oi7o03wtx6" path="res://demo/credit_scene_demo.gd" id="1_ddrlv"]
+
+[node name="CreditSceneDemo" type="Control" unique_id=1007511938]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ddrlv")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1252700504]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 1)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=1729357566]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

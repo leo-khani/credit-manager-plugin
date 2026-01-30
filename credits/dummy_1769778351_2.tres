@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CreditEntryResource" format=3 uid="uid://c2fwg7afh7lrd"]
+
+[ext_resource type="Script" uid="uid://cfg1d1r5altem" path="res://addons/credit_manager/CreditEntry.gd" id="1_qr1hw"]
+
+[resource]
+script = ExtResource("1_qr1hw")
+license = 7
+asset_name = "Dummy Asset 3"
+category = 5
+author = "Author 3"
+link = "https://example.com/asset/3"
+description = "This is a dummy asset description for testing purposes."

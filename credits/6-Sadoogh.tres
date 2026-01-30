@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="CreditEntryResource" format=3 uid="uid://brdt2ofv0a6wq"]
+
+[ext_resource type="Script" uid="uid://cfg1d1r5altem" path="res://addons/credit_manager/CreditEntry.gd" id="1_f15hn"]
+
+[resource]
+script = ExtResource("1_f15hn")
+license = 4
+asset_name = "Sadoogh"
+category = 6
+author = "awdwad"
+link = "awdawd"
+description = "awdawd"

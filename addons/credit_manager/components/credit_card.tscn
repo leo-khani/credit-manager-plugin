@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://jr525rfgqsk8"]
+
+[ext_resource type="Script" uid="uid://csaud1gv4lwyv" path="res://addons/credit_manager/components/credit_card.gd" id="1_exhm6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_4byfl"]
+content_margin_left = 5.0
+content_margin_top = 10.0
+content_margin_right = 5.0
+content_margin_bottom = 10.0
+bg_color = Color(0.08468992, 0.08468994, 0.08468988, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_43r03"]
+content_margin_left = 5.0
+content_margin_top = 10.0
+content_margin_right = 5.0
+content_margin_bottom = 10.0
+bg_color = Color(0.08468992, 0.08468994, 0.08468988, 1)
+corner_radius_top_left = 5
+corner_radius_top_right = 5
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_exhm6"]
+bg_color = Color(0.16206557, 0.1620656, 0.16206557, 1)
+corner_radius_bottom_right = 5
+corner_radius_bottom_left = 5
+
+[node name="CreditCard" type="VBoxContainer" unique_id=1542905813]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 77.0
+grow_horizontal = 2
+script = ExtResource("1_exhm6")
+
+[node name="AssetNameFoledTitle" type="FoldableContainer" parent="." unique_id=280288207]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_styles/title_panel = SubResource("StyleBoxFlat_4byfl")
+theme_override_styles/title_hover_panel = SubResource("StyleBoxFlat_4byfl")
+theme_override_styles/title_collapsed_panel = SubResource("StyleBoxFlat_43r03")
+theme_override_styles/title_collapsed_hover_panel = SubResource("StyleBoxFlat_4byfl")
+theme_override_styles/panel = SubResource("StyleBoxFlat_exhm6")
+
+[node name="MarginContainer" type="MarginContainer" parent="AssetNameFoledTitle" unique_id=702533845]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 5
+
+[node name="VBoxContainer" type="VBoxContainer" parent="AssetNameFoledTitle/MarginContainer" unique_id=1819546887]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="HBoxContainer" type="HBoxContainer" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer" unique_id=1957918830]
+layout_mode = 2
+size_flags_vertical = 0
+
+[node name="AssetNameLabel" type="Label" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer/HBoxContainer" unique_id=1670658969]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.7490196)
+text = "Asset name"
+
+[node name="CategoryLabel" type="Label" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer/HBoxContainer" unique_id=584113132]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.7490196)
+text = "Category"
+
+[node name="LicenseLabel" type="Label" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer/HBoxContainer" unique_id=2013827427]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.7490196)
+text = "License"
+
+[node name="AuthorLabel" type="Label" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer/HBoxContainer" unique_id=730630272]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.7490196)
+text = "Author"
+
+[node name="MarginContainer" type="MarginContainer" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer" unique_id=1305200631]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+
+[node name="LinkBtn" type="LinkButton" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer/MarginContainer" unique_id=779331081]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+text = "Link"
+text_overrun_behavior = 1
+
+[node name="DescriptionLabel" type="Label" parent="AssetNameFoledTitle/MarginContainer/VBoxContainer" unique_id=1917658897]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.7490196)
+text = "Description"

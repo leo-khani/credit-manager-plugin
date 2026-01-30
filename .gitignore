@@ -1,0 +1,31 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+/ios/
+*.translation
+
+# Imported translations
+*.loc
+*.MO
+
+# Export presets
+export_presets.cfg
+
+# Mono/C# - specific (if you use C# in better future)
+.mono/
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.sln
+*.csproj
+*.unitypackage
+
+# System / Tools
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
