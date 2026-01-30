@@ -3,7 +3,7 @@
 **A professional, easy-to-use plugin for managing and displaying game credits in Godot 4.**
 
 Manage your attributions, licenses, and contributor credits directly from the Godot Editor, and access them easily via code to create stunning credit sequences.
-
+![UI Screenshot](demo.png)
 ![Godot 4](https://img.shields.io/badge/Godot_4.x-Compatible-478cbf?style=flat&logo=godot-engine)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
@@ -54,14 +54,6 @@ func _ready():
     for credit in all_credits:
         # Instantiate your UI row/label here
         pass
-```
-
-
-## 🛠️ Testing & Dummy Data
-Need to test your UI layout? You can generate placeholder data instantly:
-```gdscript
-# Generate 5 random entries for testing
-CreditManager.generate_dummy_credits(5)
 ```
 
 ## 📄 License
