@@ -24,7 +24,8 @@
 !/addons/credit_manager/
 !/addons/credit_manager/**
 !/screenshots/
-/screenshots/**
+!/screenshots/*
+!/screenshots/**
 
 # Standard Godot and System ignores (redundant but good practice)
 .godot/
