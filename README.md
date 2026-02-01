@@ -1,3 +1,6 @@
+![alt text](screenshots/Icon.png){width=100 height=100}
+
+
 # Godot Credit Manager
 
 **A professional, easy-to-use plugin for managing and displaying game credits in Godot 4.**
