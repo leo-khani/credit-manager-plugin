@@ -37,4 +37,5 @@ credits/ export-ignore
 README.md export-ignore
 LICENSE export-ignore
 icon.svg.import export-ignore
+demo.png export-ignore
 project.godot export-ignore
