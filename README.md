@@ -1,4 +1,4 @@
-![alt text](screenshots/Icon.png){width=100 height=100}
+![alt text](screenshots/icon-32x32.png)
 
 
 # Godot Credit Manager
