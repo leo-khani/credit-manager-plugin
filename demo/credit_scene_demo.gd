@@ -67,7 +67,8 @@ func build_credits_bbcode() -> String:
 func start_scrolling() -> void:
 	# Reset scroll
 	rich_text_label.position.y = size.y
-
+	#to suit the text length which is longer than screen size
+	rich_text_label.size.y = rich_text_label.get_content_height()
 	# Calculate how far to scroll
 	var content_height = rich_text_label.get_content_height()
 	var target_y = -content_height - 100 # Scroll slightly past screen
